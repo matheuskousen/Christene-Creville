@@ -2,7 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
-
+:root{
+    --text:font-family: 'Raleway', sans-serif;
+--title:font-family: 'Playfair Display', serif;
+}
 
 
 *,html, body, div, span, object, iframe,
@@ -27,15 +30,15 @@ time, mark, audio, video {
     background:transparent;
     -webkit-font-smoothing: antialiased !important;
     color:#202020;
-    font-weight:400;
+    font-weight:600;
     text-rendering:geometricPrecision;
  
 }
 
 body {
     line-height:1;
-    font-family: 'Source Sans Pro', sans-serif;
-    background:#fefefe;
+    font-family: 'Raleway', sans-serif;
+    background:lightgray;
     min-height:100vh;
    
 
@@ -127,8 +130,9 @@ input, select {
     cursor: pointer;
   }
 
-h1,h2,h3,h4{
-    font-family: 'Orbitron', sans-serif;
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+    font-weight:700;
 }
   
 `;

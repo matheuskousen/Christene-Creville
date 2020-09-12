@@ -1,5 +1,8 @@
 import styled from "styled-components";
+import HomePage from "../src/HomePage";
 
 export default function Home() {
-  return <h1>Hello</h1>;
+  return <>
+  <HomePage/>
+  </>;
 }
